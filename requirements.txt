@@ -2,6 +2,7 @@
 lxml
 # i.e. add PyQt5
 PyQt5
+ipython
 
 # main application
 # replace with your module that can be run via python3 -m application

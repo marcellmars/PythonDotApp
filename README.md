@@ -1,6 +1,6 @@
 # PythonDotApp
 
-[![Build Status](https://travis-ci.org/bit/PythonDotApp.svg?branch=master)](https://travis-ci.org/bit/PythonDotApp)
+[![Build Status](https://travis-ci.org/marcellmars/PythonDotApp.svg?branch=master)](https://travis-ci.org/marcellmars/PythonDotApp)
 
 
 Skeleton to build Python 3 together with a custom hello world application and package it as OS X Application.

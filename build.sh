@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e
 
-NAME="PythonDotApp"
-IDENTIFIER="com.github.bit.PythonDotApp"
+NAME="SnipdomDotApp"
+IDENTIFIER="com.github.bit.SnipdomDotApp"
 OSXVERSION=10.9
 APPLICATION=application
 VERSION=`git tag | head -1 | sed "s/$NAME-//"`

@@ -6,8 +6,8 @@ from PyQt5.Qt import (Qt,
                       QPushButton,
                       QApplication)
 
-from IPython.qt.console.rich_ipython_widget import RichIPythonWidget
-from IPython.qt.inprocess import QtInProcessKernelManager
+from qtconsole.rich_jupyter_widget import RichJupyterWidget
+from qtconsole.inprocess import QtInProcessKernelManager
 from IPython.lib import guisupport
 
 
@@ -34,7 +34,7 @@ class Snipdom(QMainWindow):
         self.kernel = kernel_manager.kernel
         self.kernel.gui = 'qt'
 
-        self.control = RichIPythonWidget(gui_completion="droplist")
+        self.control = RichJupyterWidget(gui_completion="droplist")
 
         self.kernel.shell.push({'snipdom': self})
 
